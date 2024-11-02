@@ -1,0 +1,8 @@
+spring.application.name=employee-service
+server.port=8085
+spring.datasource.url=jdbc:postgresql://localhost:5432/TestDB
+spring.datasource.username=postgres
+spring.datasource.password=giram
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
